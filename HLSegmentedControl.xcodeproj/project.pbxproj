@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A32AF1719C3F91000728AD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A32AF1619C3F91000728AD3 /* Foundation.framework */; };
+		1A32AF1919C3F91000728AD3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A32AF1819C3F91000728AD3 /* CoreGraphics.framework */; };
+		1A32AF1B19C3F91000728AD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A32AF1A19C3F91000728AD3 /* UIKit.framework */; };
+		1A32AF2119C3F91000728AD3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A32AF1F19C3F91000728AD3 /* InfoPlist.strings */; };
+		1A32AF2319C3F91000728AD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A32AF2219C3F91000728AD3 /* main.m */; };
+		1A32AF2719C3F91000728AD3 /* HLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A32AF2619C3F91000728AD3 /* HLAppDelegate.m */; };
+		1A32AF2A19C3F91000728AD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A32AF2819C3F91000728AD3 /* Main.storyboard */; };
+		1A32AF2D19C3F91000728AD3 /* HLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A32AF2C19C3F91000728AD3 /* HLViewController.m */; };
+		1A32AF2F19C3F91000728AD3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A32AF2E19C3F91000728AD3 /* Images.xcassets */; };
+		1A32AF3619C3F91000728AD3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A32AF3519C3F91000728AD3 /* XCTest.framework */; };
+		1A32AF3719C3F91000728AD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A32AF1619C3F91000728AD3 /* Foundation.framework */; };
+		1A32AF3819C3F91000728AD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A32AF1A19C3F91000728AD3 /* UIKit.framework */; };
+		1A32AF4019C3F91000728AD3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A32AF3E19C3F91000728AD3 /* InfoPlist.strings */; };
+		1A32AF4219C3F91000728AD3 /* HLSegmentedControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A32AF4119C3F91000728AD3 /* HLSegmentedControlTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A32AF3919C3F91000728AD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A32AF0B19C3F91000728AD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A32AF1219C3F91000728AD3;
+			remoteInfo = HLSegmentedControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A32AF1319C3F91000728AD3 /* HLSegmentedControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLSegmentedControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A32AF1619C3F91000728AD3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A32AF1819C3F91000728AD3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1A32AF1A19C3F91000728AD3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1A32AF1E19C3F91000728AD3 /* HLSegmentedControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HLSegmentedControl-Info.plist"; sourceTree = "<group>"; };
+		1A32AF2019C3F91000728AD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A32AF2219C3F91000728AD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A32AF2419C3F91000728AD3 /* HLSegmentedControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HLSegmentedControl-Prefix.pch"; sourceTree = "<group>"; };
+		1A32AF2519C3F91000728AD3 /* HLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLAppDelegate.h; sourceTree = "<group>"; };
+		1A32AF2619C3F91000728AD3 /* HLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLAppDelegate.m; sourceTree = "<group>"; };
+		1A32AF2919C3F91000728AD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A32AF2B19C3F91000728AD3 /* HLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLViewController.h; sourceTree = "<group>"; };
+		1A32AF2C19C3F91000728AD3 /* HLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLViewController.m; sourceTree = "<group>"; };
+		1A32AF2E19C3F91000728AD3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1A32AF3419C3F91000728AD3 /* HLSegmentedControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLSegmentedControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A32AF3519C3F91000728AD3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1A32AF3D19C3F91000728AD3 /* HLSegmentedControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HLSegmentedControlTests-Info.plist"; sourceTree = "<group>"; };
+		1A32AF3F19C3F91000728AD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A32AF4119C3F91000728AD3 /* HLSegmentedControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLSegmentedControlTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A32AF1019C3F91000728AD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A32AF1919C3F91000728AD3 /* CoreGraphics.framework in Frameworks */,
+				1A32AF1B19C3F91000728AD3 /* UIKit.framework in Frameworks */,
+				1A32AF1719C3F91000728AD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A32AF3119C3F91000728AD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A32AF3619C3F91000728AD3 /* XCTest.framework in Frameworks */,
+				1A32AF3819C3F91000728AD3 /* UIKit.framework in Frameworks */,
+				1A32AF3719C3F91000728AD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A32AF0A19C3F91000728AD3 = {
+			isa = PBXGroup;
+			children = (
+				1A32AF1C19C3F91000728AD3 /* HLSegmentedControl */,
+				1A32AF3B19C3F91000728AD3 /* HLSegmentedControlTests */,
+				1A32AF1519C3F91000728AD3 /* Frameworks */,
+				1A32AF1419C3F91000728AD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A32AF1419C3F91000728AD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A32AF1319C3F91000728AD3 /* HLSegmentedControl.app */,
+				1A32AF3419C3F91000728AD3 /* HLSegmentedControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A32AF1519C3F91000728AD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A32AF1619C3F91000728AD3 /* Foundation.framework */,
+				1A32AF1819C3F91000728AD3 /* CoreGraphics.framework */,
+				1A32AF1A19C3F91000728AD3 /* UIKit.framework */,
+				1A32AF3519C3F91000728AD3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A32AF1C19C3F91000728AD3 /* HLSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				1A32AF2519C3F91000728AD3 /* HLAppDelegate.h */,
+				1A32AF2619C3F91000728AD3 /* HLAppDelegate.m */,
+				1A32AF2819C3F91000728AD3 /* Main.storyboard */,
+				1A32AF2B19C3F91000728AD3 /* HLViewController.h */,
+				1A32AF2C19C3F91000728AD3 /* HLViewController.m */,
+				1A32AF2E19C3F91000728AD3 /* Images.xcassets */,
+				1A32AF1D19C3F91000728AD3 /* Supporting Files */,
+			);
+			path = HLSegmentedControl;
+			sourceTree = "<group>";
+		};
+		1A32AF1D19C3F91000728AD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A32AF1E19C3F91000728AD3 /* HLSegmentedControl-Info.plist */,
+				1A32AF1F19C3F91000728AD3 /* InfoPlist.strings */,
+				1A32AF2219C3F91000728AD3 /* main.m */,
+				1A32AF2419C3F91000728AD3 /* HLSegmentedControl-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A32AF3B19C3F91000728AD3 /* HLSegmentedControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A32AF4119C3F91000728AD3 /* HLSegmentedControlTests.m */,
+				1A32AF3C19C3F91000728AD3 /* Supporting Files */,
+			);
+			path = HLSegmentedControlTests;
+			sourceTree = "<group>";
+		};
+		1A32AF3C19C3F91000728AD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A32AF3D19C3F91000728AD3 /* HLSegmentedControlTests-Info.plist */,
+				1A32AF3E19C3F91000728AD3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A32AF1219C3F91000728AD3 /* HLSegmentedControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A32AF4519C3F91000728AD3 /* Build configuration list for PBXNativeTarget "HLSegmentedControl" */;
+			buildPhases = (
+				1A32AF0F19C3F91000728AD3 /* Sources */,
+				1A32AF1019C3F91000728AD3 /* Frameworks */,
+				1A32AF1119C3F91000728AD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLSegmentedControl;
+			productName = HLSegmentedControl;
+			productReference = 1A32AF1319C3F91000728AD3 /* HLSegmentedControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A32AF3319C3F91000728AD3 /* HLSegmentedControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A32AF4819C3F91000728AD3 /* Build configuration list for PBXNativeTarget "HLSegmentedControlTests" */;
+			buildPhases = (
+				1A32AF3019C3F91000728AD3 /* Sources */,
+				1A32AF3119C3F91000728AD3 /* Frameworks */,
+				1A32AF3219C3F91000728AD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A32AF3A19C3F91000728AD3 /* PBXTargetDependency */,
+			);
+			name = HLSegmentedControlTests;
+			productName = HLSegmentedControlTests;
+			productReference = 1A32AF3419C3F91000728AD3 /* HLSegmentedControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A32AF0B19C3F91000728AD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					1A32AF3319C3F91000728AD3 = {
+						TestTargetID = 1A32AF1219C3F91000728AD3;
+					};
+				};
+			};
+			buildConfigurationList = 1A32AF0E19C3F91000728AD3 /* Build configuration list for PBXProject "HLSegmentedControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A32AF0A19C3F91000728AD3;
+			productRefGroup = 1A32AF1419C3F91000728AD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A32AF1219C3F91000728AD3 /* HLSegmentedControl */,
+				1A32AF3319C3F91000728AD3 /* HLSegmentedControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A32AF1119C3F91000728AD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A32AF2F19C3F91000728AD3 /* Images.xcassets in Resources */,
+				1A32AF2119C3F91000728AD3 /* InfoPlist.strings in Resources */,
+				1A32AF2A19C3F91000728AD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A32AF3219C3F91000728AD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A32AF4019C3F91000728AD3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A32AF0F19C3F91000728AD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A32AF2D19C3F91000728AD3 /* HLViewController.m in Sources */,
+				1A32AF2719C3F91000728AD3 /* HLAppDelegate.m in Sources */,
+				1A32AF2319C3F91000728AD3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A32AF3019C3F91000728AD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A32AF4219C3F91000728AD3 /* HLSegmentedControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A32AF3A19C3F91000728AD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A32AF1219C3F91000728AD3 /* HLSegmentedControl */;
+			targetProxy = 1A32AF3919C3F91000728AD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A32AF1F19C3F91000728AD3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A32AF2019C3F91000728AD3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1A32AF2819C3F91000728AD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A32AF2919C3F91000728AD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A32AF3E19C3F91000728AD3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A32AF3F19C3F91000728AD3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A32AF4319C3F91000728AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1A32AF4419C3F91000728AD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A32AF4619C3F91000728AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HLSegmentedControl/HLSegmentedControl-Prefix.pch";
+				INFOPLIST_FILE = "HLSegmentedControl/HLSegmentedControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1A32AF4719C3F91000728AD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HLSegmentedControl/HLSegmentedControl-Prefix.pch";
+				INFOPLIST_FILE = "HLSegmentedControl/HLSegmentedControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1A32AF4919C3F91000728AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HLSegmentedControl.app/HLSegmentedControl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HLSegmentedControl/HLSegmentedControl-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HLSegmentedControlTests/HLSegmentedControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1A32AF4A19C3F91000728AD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HLSegmentedControl.app/HLSegmentedControl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HLSegmentedControl/HLSegmentedControl-Prefix.pch";
+				INFOPLIST_FILE = "HLSegmentedControlTests/HLSegmentedControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A32AF0E19C3F91000728AD3 /* Build configuration list for PBXProject "HLSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A32AF4319C3F91000728AD3 /* Debug */,
+				1A32AF4419C3F91000728AD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A32AF4519C3F91000728AD3 /* Build configuration list for PBXNativeTarget "HLSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A32AF4619C3F91000728AD3 /* Debug */,
+				1A32AF4719C3F91000728AD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A32AF4819C3F91000728AD3 /* Build configuration list for PBXNativeTarget "HLSegmentedControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A32AF4919C3F91000728AD3 /* Debug */,
+				1A32AF4A19C3F91000728AD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A32AF0B19C3F91000728AD3 /* Project object */;
+}
