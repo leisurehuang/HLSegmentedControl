@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HLSegmentedControl.h"
 
-@interface HLViewController : UIViewController
+@interface HLViewController : UIViewController<HLSegmentedDelegate>
 
 @end

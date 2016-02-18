@@ -21,6 +21,11 @@
 		1A32AF3819C3F91000728AD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A32AF1A19C3F91000728AD3 /* UIKit.framework */; };
 		1A32AF4019C3F91000728AD3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A32AF3E19C3F91000728AD3 /* InfoPlist.strings */; };
 		1A32AF4219C3F91000728AD3 /* HLSegmentedControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A32AF4119C3F91000728AD3 /* HLSegmentedControlTests.m */; };
+		1A32AF4D19C3F93900728AD3 /* HLSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A32AF4C19C3F93900728AD3 /* HLSegmentedControl.m */; };
+		1A32AF4F19C40C0800728AD3 /* settings-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A32AF4E19C40C0800728AD3 /* settings-icon@2x.png */; };
+		1A32AF5619C41E9300728AD3 /* segmented-separator.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A32AF5219C41E9300728AD3 /* segmented-separator.png */; };
+		1A32AF5719C41E9300728AD3 /* segmented-separator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A32AF5319C41E9300728AD3 /* segmented-separator@2x.png */; };
+		1A32AF5919C4273B00728AD3 /* settings-icon-selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A32AF5819C4273B00728AD3 /* settings-icon-selected@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,12 @@
 		1A32AF3D19C3F91000728AD3 /* HLSegmentedControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HLSegmentedControlTests-Info.plist"; sourceTree = "<group>"; };
 		1A32AF3F19C3F91000728AD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1A32AF4119C3F91000728AD3 /* HLSegmentedControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLSegmentedControlTests.m; sourceTree = "<group>"; };
+		1A32AF4B19C3F93900728AD3 /* HLSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLSegmentedControl.h; sourceTree = "<group>"; };
+		1A32AF4C19C3F93900728AD3 /* HLSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLSegmentedControl.m; sourceTree = "<group>"; };
+		1A32AF4E19C40C0800728AD3 /* settings-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings-icon@2x.png"; sourceTree = "<group>"; };
+		1A32AF5219C41E9300728AD3 /* segmented-separator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segmented-separator.png"; sourceTree = "<group>"; };
+		1A32AF5319C41E9300728AD3 /* segmented-separator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segmented-separator@2x.png"; sourceTree = "<group>"; };
+		1A32AF5819C4273B00728AD3 /* settings-icon-selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings-icon-selected@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +130,8 @@
 				1A32AF2C19C3F91000728AD3 /* HLViewController.m */,
 				1A32AF2E19C3F91000728AD3 /* Images.xcassets */,
 				1A32AF1D19C3F91000728AD3 /* Supporting Files */,
+				1A32AF4B19C3F93900728AD3 /* HLSegmentedControl.h */,
+				1A32AF4C19C3F93900728AD3 /* HLSegmentedControl.m */,
 			);
 			path = HLSegmentedControl;
 			sourceTree = "<group>";
@@ -126,6 +139,10 @@
 		1A32AF1D19C3F91000728AD3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1A32AF5819C4273B00728AD3 /* settings-icon-selected@2x.png */,
+				1A32AF5219C41E9300728AD3 /* segmented-separator.png */,
+				1A32AF5319C41E9300728AD3 /* segmented-separator@2x.png */,
+				1A32AF4E19C40C0800728AD3 /* settings-icon@2x.png */,
 				1A32AF1E19C3F91000728AD3 /* HLSegmentedControl-Info.plist */,
 				1A32AF1F19C3F91000728AD3 /* InfoPlist.strings */,
 				1A32AF2219C3F91000728AD3 /* main.m */,
@@ -229,8 +246,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A32AF5919C4273B00728AD3 /* settings-icon-selected@2x.png in Resources */,
+				1A32AF4F19C40C0800728AD3 /* settings-icon@2x.png in Resources */,
+				1A32AF5719C41E9300728AD3 /* segmented-separator@2x.png in Resources */,
 				1A32AF2F19C3F91000728AD3 /* Images.xcassets in Resources */,
 				1A32AF2119C3F91000728AD3 /* InfoPlist.strings in Resources */,
+				1A32AF5619C41E9300728AD3 /* segmented-separator.png in Resources */,
 				1A32AF2A19C3F91000728AD3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A32AF4D19C3F93900728AD3 /* HLSegmentedControl.m in Sources */,
 				1A32AF2D19C3F91000728AD3 /* HLViewController.m in Sources */,
 				1A32AF2719C3F91000728AD3 /* HLAppDelegate.m in Sources */,
 				1A32AF2319C3F91000728AD3 /* main.m in Sources */,
